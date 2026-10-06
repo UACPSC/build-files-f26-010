@@ -1,5 +1,6 @@
 # Build for srccomplexity
 
+.PHONY:all
 all : srccomplexity srcMLXPathCountTest
 
 srccomplexity : srcComplexity.o srcMLXPathCount.o
