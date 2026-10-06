@@ -17,3 +17,7 @@ srcMLXPathCountTest : srcMLXPathCountTest.o srcMLXPathCount.o
 
 srcMLXPathCountTest.o : srcMLXPathCountTest.cpp srcMLXPathCount.hpp
 	g++ -c srcMLXPathCountTest.cpp
+
+.PHONY:clean
+clean :
+	@rm -f srcComplexity.o srcMLXPathCount.o srcMLXPathCountTest.o srccomplexity srcMLXPathCountTest
